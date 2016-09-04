@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ExampleTest" duration-ms="29" started-at="2016-09-04T11:13:29Z" finished-at="2016-09-04T11:13:29Z">
+    <groups>
+      <group name="functest1">
+        <method signature="ExampleTest.Testing1()[pri:0, instance:ExampleTest@78187d48]" name="Testing1" class="ExampleTest"/>
+      </group> <!-- functest1 -->
+      <group name="functest">
+        <method signature="ExampleTest.Testing()[pri:0, instance:ExampleTest@78187d48]" name="Testing" class="ExampleTest"/>
+      </group> <!-- functest -->
+    </groups>
+    <test name="Command line test" duration-ms="29" started-at="2016-09-04T11:13:29Z" finished-at="2016-09-04T11:13:29Z">
+      <class name="ExampleTest">
+        <test-method status="PASS" signature="Testing()[pri:0, instance:ExampleTest@78187d48]" name="Testing" duration-ms="11" started-at="2016-09-04T16:43:29Z" finished-at="2016-09-04T16:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing -->
+        <test-method status="PASS" signature="Testing1()[pri:0, instance:ExampleTest@78187d48]" name="Testing1" duration-ms="0" started-at="2016-09-04T16:43:29Z" finished-at="2016-09-04T16:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing1 -->
+      </class> <!-- ExampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- ExampleTest -->
+</testng-results>
